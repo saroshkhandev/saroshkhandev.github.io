@@ -33,6 +33,7 @@ strong {
   font-weight: 500;
 }
 
+a,
 p,
 li,
 span,
@@ -121,6 +122,10 @@ h6 {
   justify-content: space-between;
   align-items: center;
   background: var(--mainColor);
+}
+
+#navigation a {
+    color: var(--mainText);
 }
 
 #navigation {
